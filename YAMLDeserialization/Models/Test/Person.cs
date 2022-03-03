@@ -17,7 +17,11 @@ namespace Examples.Models.Test
 
         public Car Car { get; set; } = new Car();
 
+        public Car SecondCar { get; set; } = new Car();
+
         public Address? Address { get; set; }
+
+        public List<IHobby>? Hobbies { get; set; }
 
         public string ToString(ISerializer serializer)
         {

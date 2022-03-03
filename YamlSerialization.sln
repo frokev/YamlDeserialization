@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "YAMLDeserializa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlSerialization", "YamlSerialization\YamlSerialization.csproj", "{752660A7-A8DC-4983-9651-C42357B64FCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLPipe", "ETLPipe\ETLPipe.csproj", "{C9997685-BF3E-4857-B247-29E491473329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{752660A7-A8DC-4983-9651-C42357B64FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{752660A7-A8DC-4983-9651-C42357B64FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{752660A7-A8DC-4983-9651-C42357B64FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9997685-BF3E-4857-B247-29E491473329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9997685-BF3E-4857-B247-29E491473329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9997685-BF3E-4857-B247-29E491473329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9997685-BF3E-4857-B247-29E491473329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

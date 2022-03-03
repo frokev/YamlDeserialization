@@ -1,0 +1,25 @@
+﻿extractors:
+  - testExtractor: &table1
+    tableName: testTable1
+    connectionString: "1234"
+
+  - testExtractor2: &table2
+    tableName: testTable2
+    connectionString: "1234"
+
+
+transformations:
+  - !joinTables &combinedTable
+    table1: *table1
+    table2: *table2
+
+  - !jsTransformation
+    filePath: ""
+    functionName: ""
+    params: ""
+
+  - !renameColumns
+    colName: "targetName"
+
+        
+	

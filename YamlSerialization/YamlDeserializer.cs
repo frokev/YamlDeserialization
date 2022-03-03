@@ -10,19 +10,26 @@ namespace YamlSerialization
 {
     public class YamlDeserializer
     {
-        private Deserializer Deserializer { get; init; }
+        private Deserializer Deserializer { get; set; }
+        private DeserializerBuilder DeserializerBuilder { get; set; }
 
         public YamlDeserializer()
         {
-            var builder = new DeserializerBuilder()
+            DeserializerBuilder = new DeserializerBuilder()
                 .WithNamingConvention(CamelCaseNamingConvention.Instance)
                 .IncludeNonPublicProperties();
+            
+            Deserializer = (Deserializer)DeserializerBuilder.Build();
+        }
 
-            Deserializer = (Deserializer)builder.Build();
+        public void AddTagMapping(string tagName, Type type)
+        {
+            DeserializerBuilder.WithTagMapping(tagName, type);
         }
 
         public T Deserialize<T>(string input)
         {
+            Deserializer = (Deserializer)DeserializerBuilder.Build();
             return Deserializer.Deserialize<T>(input);
         }
 

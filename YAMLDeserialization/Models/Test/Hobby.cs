@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Examples.Models.Test
 {
-    internal class Car
+    internal class Hobby : IHobby
     {
-        public string Model { get; set; } = string.Empty;
-        private DateTime ManufactureDate { get; set; }
+        public string? Name { get; set; }
     }
 }

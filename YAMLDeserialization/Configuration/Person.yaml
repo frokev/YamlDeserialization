@@ -1,7 +1,14 @@
-﻿firstName: Kevin
+﻿firstName: &name Kevin
 
-car:
+car: &test
  model: BMW
 
+secondCar: *test
+
 address: 
- name: Fjelltunvegen 61G
+ name: *name
+
+hobbies:
+ - !hobby &test2
+   name: first
+ - *test2
