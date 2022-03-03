@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "YAMLDeserialization\Examples.csproj", "{71115356-C4DD-4B51-A499-C6D1B089FB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlSerialization", "YamlSerialization\YamlSerialization.csproj", "{752660A7-A8DC-4983-9651-C42357B64FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71115356-C4DD-4B51-A499-C6D1B089FB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71115356-C4DD-4B51-A499-C6D1B089FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71115356-C4DD-4B51-A499-C6D1B089FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71115356-C4DD-4B51-A499-C6D1B089FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752660A7-A8DC-4983-9651-C42357B64FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752660A7-A8DC-4983-9651-C42357B64FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752660A7-A8DC-4983-9651-C42357B64FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752660A7-A8DC-4983-9651-C42357B64FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CBC7DC5-EEB0-4D4B-A39B-23F8C3BF0830}
+	EndGlobalSection
+EndGlobal
